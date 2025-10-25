@@ -74,7 +74,46 @@ Internal links allow users to jump to a specific section of the same page.
 * Windows: Alt Gr + #
 * Mac: Option + #
 
-## 5. Accessibility and WAI-ARIA
+## 5. Contact Links Using `href`
+
+The `href` attribute in HTML `<a>` tags can be used not only for web pages or local files, but also for contacting people directly via different communication methods. You can link to:
+
+* **Email addresses** (`mailto:`)
+* **Telephone numbers** (`tel:`)
+* **SMS messages** (`sms:`)
+* **MMS messages** (`mms:`)
+* **WhatsApp chat** (`https://wa.me/`)
+* **Skype calls** (`skype:`)
+
+These links can open the corresponding app on a device automatically, making it easy for users to contact you directly.
+
+### Examples
+
+```html
+<ul>
+    <li>
+        Email: <a href="mailto:contact@example.com?cc=cc@example.com&bcc=bcc@example.com&subject=Hello%20there" title="Send us an email">contact@example.com</a>
+    </li>
+    <li>
+        Tel: <a href="tel:+1234567890" title="Call us">+1 234 567 890</a>
+    </li>
+    <li>
+        SMS: <a href="sms:+1234567890" title="Send an SMS">+1 234 567 890</a>
+    </li>
+    <li>
+        MMS: <a href="mms:+1234567890" title="Send an MMS">+1 234 567 890</a>
+    </li>
+    <li>
+        WhatsApp: <a href="https://wa.me/+1234567890" title="Chat with us on WhatsApp">+1 234 567 890</a>
+    </li>
+    <li>
+        Skype: <a href="skype:live:username?call" title="Call us on Skype">+1 234 567 890</a>
+    </li>
+</ul>
+```
+
+
+## 6. Accessibility and WAI-ARIA
 
 To improve accessibility, links can include attributes defined by WAI-ARIA:
 
@@ -86,7 +125,7 @@ To improve accessibility, links can include attributes defined by WAI-ARIA:
 * `role="link"`: Clarifies the element’s function.
 * Reference: WAI-ARIA Standards – W3C
 
-## 6. The `<title>` Tag and SEO
+## 7. The `<title>` Tag and SEO
 
 The `<title>` element:
 
@@ -101,14 +140,14 @@ The `<title>` element:
 * Use meaningful titles that describe the page content.
 * Titles improve usability and search engine visibility.
 
-## 7. Link Behaviour and Browser Tabs
+## 8. Link Behaviour and Browser Tabs
 
 * `<a target="_blank">` opens the link in a new tab, not a new window.
 * Opening a new tab avoids blocked pop-ups.
 * Pop-unders are windows that open behind the main browser window.
 * Modern design prefers modal windows (z-index) rather than pop-ups.
 
-## 8. Project Structure and File Management
+## 9. Project Structure and File Management
 
 Good organisation helps maintain websites.
 
@@ -130,14 +169,14 @@ project/
 * Avoid mixing uppercase and lowercase; prefer camelCase or underscores: `corsiWeb`, `corsi_web`.
 * File and folder names are case-insensitive but consistency is recommended.
 
-## 9. Development and Deployment
+## 10. Development and Deployment
 
 * Test locally first (use Go Live in VS Code).
 * After testing, upload files via FTP.
 * HTTP allows online page viewing.
 * Emulators can simulate server behaviour.
 
-## 10. Static vs Dynamic Pages
+## 11. Static vs Dynamic Pages
 
 * **Static Pages**: Individually created `.html` files.
 * **Dynamic Pages**: Generated from templates and databases using server-side languages.
@@ -145,7 +184,7 @@ project/
 **Example:**
 A wine catalogue could dynamically generate pages for each wine by linking a template to a database. This is similar to Mail Merge in Word and Excel.
 
-## 11. Summary
+## 12. Summary
 
 * Use `<a>` for links to web pages, files, emails, or sections.
 * Distinguish absolute vs relative paths.
