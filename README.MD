@@ -193,3 +193,8 @@ A wine catalogue could dynamically generate pages for each wine by linking a tem
 * Test links locally before publishing.
 * Prefer modal windows over pop-ups.
 * Use accessibility attributes (e.g., `aria-label`, `role`) when needed.
+
+## Useful Links ##
+
+1. https://www.w3.org/WAI/standards-guidelines/aria/
+2. https://www.w3schools.com/tags/ref_standardattributes.asp
