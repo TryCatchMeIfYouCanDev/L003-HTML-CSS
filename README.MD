@@ -198,3 +198,13 @@ A wine catalogue could dynamically generate pages for each wine by linking a tem
 
 1. https://www.w3.org/WAI/standards-guidelines/aria/
 2. https://www.w3schools.com/tags/ref_standardattributes.asp
+3. https://css-tricks.com/
+4. https://www.html.it/?refresh-ce
+5. https://developer.mozilla.org/de/docs/Web/HTML
+6. https://stackoverflow.com/questions
+7. https://www.andreaminini.com/ai/
+8. https://www.freecodecamp.org/
+9. https://schema.org/
+10. https://ogp.me/
+11. https://web.archive.org/
+12. https://html5test.com/
