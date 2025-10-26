@@ -1,6 +1,6 @@
-# Hyperlinks and Page Structure in HTML
+# THIRD LESSON - Hyperlinks and Page Structure in HTML #
 
-## 1. Introduction
+## 1. Introduction ##
 
 In HTML, hyperlinks connect web pages, documents, or other resources, and are defined with the `<a>` (anchor) tag. This inline element does not interrupt the content flow and can link to:
 
@@ -10,13 +10,13 @@ In HTML, hyperlinks connect web pages, documents, or other resources, and are de
 * Telephone numbers
 * Specific sections within the same page
 
-## 2. Basic Structure of the `<a>` Tag
+## 2. Basic Structure of the `<a>` Tag ##
 
 ```html
 <a href="https://www.example.com">Visit Example</a>
 ```
 
-### Main Attributes
+### Main Attributes ###
 
 * **href**: Defines the link destination (URL or path).
 * **target="_blank"**: Opens the link in a new browser tab (not a new window).
@@ -26,9 +26,9 @@ In HTML, hyperlinks connect web pages, documents, or other resources, and are de
 * **accesskey**: Defines a keyboard shortcut for quick access.
 * **aria-label**: Improves accessibility by describing the purpose of the link.
 
-## 3. Absolute vs Relative Paths
+## 3. Absolute vs Relative Paths ###
 
-### Absolute Paths
+### Absolute Paths ###
 
 An absolute path is a full URL that points to a resource on the Internet.
 
@@ -40,7 +40,7 @@ An absolute path is a full URL that points to a resource on the Internet.
 * Independent from the file location in your site.
 * Ideal for linking to external websites.
 
-### Relative Paths
+### Relative Paths ###
 
 A relative path locates a file based on the current page’s directory.
 
@@ -57,7 +57,7 @@ A relative path locates a file based on the current page’s directory.
 
 > Note: In local testing, relative paths may require Visual Studio Code Go Live to simulate a server.
 
-## 4. Internal Page Anchors
+## 4. Internal Page Anchors ##
 
 Internal links allow users to jump to a specific section of the same page.
 
@@ -74,7 +74,7 @@ Internal links allow users to jump to a specific section of the same page.
 * Windows: Alt Gr + #
 * Mac: Option + #
 
-## 5. Contact Links Using `href`
+## 5. Contact Links Using `href` ##
 
 The `href` attribute in HTML `<a>` tags can be used not only for web pages or local files, but also for contacting people directly via different communication methods. You can link to:
 
@@ -87,7 +87,7 @@ The `href` attribute in HTML `<a>` tags can be used not only for web pages or lo
 
 These links can open the corresponding app on a device automatically, making it easy for users to contact you directly.
 
-### Examples
+### Examples ###
 
 ```html
 <ul>
@@ -113,7 +113,7 @@ These links can open the corresponding app on a device automatically, making it 
 ```
 
 
-## 6. Accessibility and WAI-ARIA
+## 6. Accessibility and WAI-ARIA ##
 
 To improve accessibility, links can include attributes defined by WAI-ARIA:
 
@@ -125,7 +125,7 @@ To improve accessibility, links can include attributes defined by WAI-ARIA:
 * `role="link"`: Clarifies the element’s function.
 * Reference: WAI-ARIA Standards – W3C
 
-## 7. The `<title>` Tag and SEO
+## 7. The `<title>` Tag and SEO ##
 
 The `<title>` element:
 
@@ -140,14 +140,14 @@ The `<title>` element:
 * Use meaningful titles that describe the page content.
 * Titles improve usability and search engine visibility.
 
-## 8. Link Behaviour and Browser Tabs
+## 8. Link Behaviour and Browser Tabs ##
 
 * `<a target="_blank">` opens the link in a new tab, not a new window.
 * Opening a new tab avoids blocked pop-ups.
 * Pop-unders are windows that open behind the main browser window.
 * Modern design prefers modal windows (z-index) rather than pop-ups.
 
-## 9. Project Structure and File Management
+## 9. Project Structure and File Management ##
 
 Good organisation helps maintain websites.
 
@@ -169,14 +169,14 @@ project/
 * Avoid mixing uppercase and lowercase; prefer camelCase or underscores: `corsiWeb`, `corsi_web`.
 * File and folder names are case-insensitive but consistency is recommended.
 
-## 10. Development and Deployment
+## 10. Development and Deployment ##
 
 * Test locally first (use Go Live in VS Code).
 * After testing, upload files via FTP.
 * HTTP allows online page viewing.
 * Emulators can simulate server behaviour.
 
-## 11. Static vs Dynamic Pages
+## 11. Static vs Dynamic Pages ##
 
 * **Static Pages**: Individually created `.html` files.
 * **Dynamic Pages**: Generated from templates and databases using server-side languages.
@@ -184,7 +184,7 @@ project/
 **Example:**
 A wine catalogue could dynamically generate pages for each wine by linking a template to a database. This is similar to Mail Merge in Word and Excel.
 
-## 12. Summary
+## 12. Summary ##
 
 * Use `<a>` for links to web pages, files, emails, or sections.
 * Distinguish absolute vs relative paths.
